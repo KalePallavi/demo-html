@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo 5</title>
+	<style>
+		
+		table,th,td{
+			table-layout: fixed;
+			border: 2px solid black;
+			border-collapse: collapse;
+			height: 30px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+ <center>
+ 	<table style="width: 55%" cellspacing="60">
+ 		<tr>
+ 			<td bgcolor="red" rowspan="3">1</td>
+ 			<td bgcolor="red" rowspan="2"></td>
+ 			<td bgcolor="red" colspan="2"></td>
+ 			<td bgcolor="red" rowspan="3"></td>
+ 			<td bgcolor="red" colspan="2"></td>
+ 		</tr>
+ 		<tr>
+ 			<td bgcolor="orange">2</td>
+ 			<td bgcolor="orange"></td>
+ 			<td bgcolor="orange"></td>
+ 			<td bgcolor="orange"></td>
+ 		</tr>
+ 		<tr>
+ 			<td bgcolor="yellow" colspan="2">3</td>
+ 			<td bgcolor="yellow"></td>
+ 			<td bgcolor="yellow"></td>
+ 			<td bgcolor="yellow" rowspan="3"></td>
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="limegreen">4</th>
+ 			<th bgcolor="limegreen"colspan="2"></th>
+ 			<th bgcolor="limegreen" colspan="3"></th>
+ 		</tr>
+         <tr>
+ 			<th bgcolor="skyblue">5</th>
+ 			<th bgcolor="skyblue"colspan="2"></th>
+ 			<th bgcolor="skyblue"rowspan="2"></th>
+ 			<th bgcolor="skyblue"colspan="2"></th>
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="purpule">6</th>
+ 			<th bgcolor="purpule"colspan="2"></th>
+ 			<th bgcolor="purpule" colspan="3"></th>
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="darkviolet" rowspan="4">7</th>
+ 			<th bgcolor="darkviolet" colspan="2"  rowspan="2"></th>
+ 			<th bgcolor="darkviolet"></th>
+ 			<th bgcolor="darkviolet" colspan="3"></th>
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="red" rowspan="3">8</th>
+ 			<th bgcolor="red" colspan="3" rowspan="3"></th>
+ 			<!-- <th bgcolor="red">3</th>
+ 			<th bgcolor="red">4</th> -->
+ 		<!-- 	<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="orange">9</th>
+ 			<th bgcolor="orange"></th>
+ 			<!-- <th bgcolor="orange">3</th> -->
+ 			<!-- <th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="yellow">10</th>
+ 			<th bgcolor="yellow"></th>
+ 			<!-- <th>3</th>
+ 			<th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="limegreen">11</th>
+ 			<th bgcolor="limegreen" colspan="4"></th>
+ 			<th bgcolor="limegreen"></th>
+ 			<th bgcolor="limegreen" rowspan="2"></th>
+ 			<!-- <th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="skyblue" colspan="3">12</th>
+ 			<th bgcolor="skyblue"></th>
+ 			<th bgcolor="skyblue" rowspan="2"></th>
+ 			<th bgcolor="skyblue"rowspan="2"></th>
+ 			<!-- <th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="purpule"colspan="3" rowspan="5">13</th>
+ 			<th bgcolor="purpule"></th>
+ 			<th bgcolor="purpule"></th>
+ 			<!-- <th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="darkviolet">14</th>
+ 			<th bgcolor="darkviolet"></th>
+ 			<th bgcolor="darkviolet"></th>
+ 			<th bgcolor="darkviolet"></th>
+ 			<!-- <th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="red">15</th>
+ 			<th bgcolor="red"></th>
+ 			<th bgcolor="red" colspan="2" rowspan="2" ></th>
+ 			<!-- <th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="orange" rowspan="3">16</th>
+ 			<th bgcolor="orange" rowspan="3"></th>
+ 			<!-- <th bgcolor="orange">3</th> -->
+<!--  			<th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th colspan="2"bgcolor="orange"></th>
+ 		
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="yellow">17</th>
+ 			<th bgcolor="yellow"colspan="2"></th>
+ 			<th colspan="2" bgcolor="yellow"></th>
+ 			<!-- <th >4</th>
+ 			<th>5</th> -->
+ 			<!-- <th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 		</tr>
+ 		<tr>
+ 			<th bgcolor="limegreen">18</th>
+ 			<th bgcolor="limegreen"colspan="6"></th>
+ 			<!-- <th>3</th>
+ 			<th>4</th>
+ 			<th>5</th>
+ 			<th>6</th>
+ 			<th>7</th>
+ 			<th>8</th> -->
+ 	</table>
+ </center>
+</body>
+</html>
